@@ -117,3 +117,11 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+# Node
+node_modules/
+**/node_modules/
+*.tsbuildinfo
+server/dev.db
+server/dev.db-journal
+.env
+**/.env
