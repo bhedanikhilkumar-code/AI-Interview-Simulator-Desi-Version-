@@ -25,6 +25,29 @@ AI-based interview simulator project with practice-oriented workflows and intera
 
 This README is written as a **portfolio-grade project document**: it explains the product idea, technical approach, architecture, workflows, setup process, engineering standards, and future roadmap so a reviewer can understand both the codebase and the thinking behind it.
 
+
+## Recruiter Quick Scan
+
+| What to look for | Why it matters |
+| --- | --- |
+| **AI mock interviews** | AI integration skills |
+| **Flutter mobile** | Cross-platform development |
+| **Voice/text interaction** | Multimodal UX |
+| **Interview prep** | Real utility for job seekers |
+| **Desi context** | India-specific content |
+
+### Key Features
+
+| Feature | Description |
+| --- | --- |
+| Mock interviews | Practice with AI |
+| Voice queries | Spoken questions |
+| Text responses | Type answers |
+| Feedback | AI-generated feedback |
+
+---
+
+
 ## Product Positioning
 
 | Question | Answer |
@@ -188,7 +211,7 @@ Before shipping or presenting this project, run the checks that match the stack:
 
 ## Professional Review Checklist
 
-- [ ] Clear project purpose and audience
+- [x] Clear project purpose and audience
 - [ ] Feature list aligned with real user workflows
 - [ ] Architecture documented with diagrams
 - [ ] Setup steps tested on a clean machine
@@ -197,9 +220,12 @@ Before shipping or presenting this project, run the checks that match the stack:
 - [ ] Tests/lint commands documented
 - [ ] Roadmap shows practical next steps
 
-## Screenshots / Demo Suggestions
+## Screenshots / Demo Notes
 
-Add these assets when available to make the repository even stronger:
+| Asset | Status |
+| --- | --- |
+| App screenshots | To be captured |
+| Demo video | Future improvement | when available to make the repository even stronger:
 
 | Asset | Recommended content |
 | --- | --- |
