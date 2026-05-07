@@ -1,4 +1,6 @@
 # Miscellaneous
+.DS_Store
+Thumbs.db
 *.class
 *.lock
 *.log
@@ -6,6 +8,12 @@
 *.swp
 .buildlog/
 .history
+
+# Local editor and IDE state
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
 
 
 

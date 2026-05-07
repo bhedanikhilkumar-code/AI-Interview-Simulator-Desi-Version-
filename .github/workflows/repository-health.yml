@@ -65,5 +65,16 @@ jobs:
           for path in suspicious:
               print(f"::warning file={path}::Review sensitive-looking tracked file")
 
+          ignored_project_state = [
+              str(path)
+              for path in Path(".").rglob("*")
+              if path.is_file() and any(part in {".idea", ".dart_tool", "build", "node_modules"} for part in path.parts)
+          ]
+          if ignored_project_state:
+              print("Tracked local/build artifacts should not be committed:")
+              for path in ignored_project_state:
+                  print(f"- {path}")
+              raise SystemExit(1)
+
           print("Repository health check passed.")
           PY
